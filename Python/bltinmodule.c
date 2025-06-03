@@ -3307,6 +3307,7 @@ static PyMethodDef builtin_methods[] = {
     BUILTIN_ORD_METHODDEF
     BUILTIN_POW_METHODDEF
     BUILTIN_PRINT_METHODDEF
+    {"አትም", _PyCFunction_CAST(builtin_print_impl), METH_FASTCALL | METH_KEYWORDS, builtin_print__doc__},
     BUILTIN_REPR_METHODDEF
     BUILTIN_ROUND_METHODDEF
     BUILTIN_SETATTR_METHODDEF
